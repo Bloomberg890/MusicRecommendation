@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  width: 100%;
+  max-width: 1056px;
+  gap: 20px;
+  color: #fff;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font: 20px/1 Outfit, sans-serif;
+}
+
+.logo {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navigation {
+  display: flex;
+  gap: 40px 85px;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .header {
+    max-width: 100%;
+  }
+  .navigation {
+    max-width: 100%;
+  }
+}

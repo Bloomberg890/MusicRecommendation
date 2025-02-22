@@ -1,0 +1,28 @@
+.testimonialWrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.avatar {
+  aspect-ratio: 0.98;
+  object-fit: contain;
+  object-position: center;
+  width: 131px;
+  align-self: center;
+  z-index: 10;
+  max-width: 100%;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #31346d;
+  display: flex;
+  height: 307px;
+}
+
+@media (max-width: 991px) {
+  .testimonialWrapper {
+    margin-top: 15px;
+  }
+}
