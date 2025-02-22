@@ -31,15 +31,14 @@ export function KryptoLanding() {
           <div className={styles.column}>
             <div className={styles.heroText}>
               <h1 className={styles.mainTitle}>
-                discover and collect rare NFTs
+                Music Recommendation System
               </h1>
               <p className={styles.description}>
-                The most secure marketplace for buying and selling unique crypto
-                assets.
+                Tune In, Vibe Out!
               </p>
               <div className={styles.ctaButtons}>
-                <button className={styles.primaryButton}>buy nfts</button>
-                <button className={styles.secondaryButton}>sell nfts</button>
+                <button className={styles.primaryButton}>Create Playlist</button>
+                <button className={styles.secondaryButton}>Search Music</button>
               </div>
             </div>
           </div>
