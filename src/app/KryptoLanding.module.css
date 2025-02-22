@@ -4,7 +4,7 @@
   flex-direction: column;
   overflow: hidden;
   align-items: center;
-  padding: 28px 80px 94px;
+  padding: 24px 80px 94px;
 }
 
 .heroSection {
@@ -38,7 +38,7 @@
 
 .mainTitle {
   color: #fff;
-  font-size: 75px;
+  font-size: 70px;
   line-height: 83px;
   text-transform: capitalize;
 }
@@ -71,6 +71,7 @@
 
 .secondaryButton {
   border-radius: 50px;
+  background-color: #8dd0d1;
   color: #fff;
   flex-grow: 1;
   width: fit-content;
