@@ -18,6 +18,37 @@
   display: flex;
 }
 
+@keyframes pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.9;
+  }
+}
+
+.glow {
+  position: relative;
+  z-index: 1;
+}
+
+.glow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  background: #4e5c8d;
+  filter: blur(100px);
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  animation: pulse 2s infinite alternate ease-in-out;
+}
+
 .column {
   display: flex;
   flex-direction: column;

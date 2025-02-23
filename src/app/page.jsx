@@ -29,7 +29,7 @@ export function KryptoLanding() {
       <section className={styles.heroSection}>
         <div className={styles.heroContent}>
           <div className={styles.column}>
-            <div className={styles.heroText}>
+            <div className={`${styles.heroText} ${styles.glow}`}>
               <h1 className={styles.mainTitle}>
                 Music Recommendation System
               </h1>
