@@ -86,6 +86,17 @@ export function KryptoLanding() {
           ))}
         </div>
       </section>
+
+      <section className={styles.exploreMusicSection}>
+        <div className={styles.exploreContainer}>
+          <div className={styles.heroText}>
+            <p className={styles.exploreSubtitle}>ARE YOU READY?</p>
+            <h1 className={styles.exploreTitle}>To Dive Into A World Of Endless Tunes</h1>
+            <button className={styles.exploreButton}>GET STARTED</button>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
