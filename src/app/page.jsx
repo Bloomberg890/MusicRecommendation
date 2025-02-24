@@ -53,30 +53,6 @@ export function KryptoLanding() {
         </div>
       </section>
 
-      <h2 className={styles.featuredSection}>Featured on</h2>
-      <div className={styles.featuredLogos}>
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/a82a06da5142afa6f9411c2c43da92442a6822a816bef757288fc43ead5e9176?placeholderIfAbsent=true&apiKey=2c27ab9a724c4541b8d28f0165c68411"
-          alt="Featured logo 1"
-        />
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/770228c93b03b3f12b3b067773e725615e3110273458976429de349f8ce11ec5?placeholderIfAbsent=true&apiKey=2c27ab9a724c4541b8d28f0165c68411"
-          alt="Featured logo 2"
-        />
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/403caa2592c98588f12b10e0f3332a24ee4967ff046d7b9ce2be0bc7e93288da?placeholderIfAbsent=true&apiKey=2c27ab9a724c4541b8d28f0165c68411"
-          alt="Featured logo 3"
-        />
-        <img
-          loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/94d71f5854ddc7189b646137a0bb9e37a36a12313c43f2578439a07047bc3919?placeholderIfAbsent=true&apiKey=2c27ab9a724c4541b8d28f0165c68411"
-          alt="Featured logo 4"
-        />
-      </div>
-
       <section className={styles.testimonialSection}>
         <div className={styles.testimonialGrid}>
           {testimonials.map((testimonial) => (
