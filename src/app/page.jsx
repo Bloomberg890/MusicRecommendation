@@ -25,7 +25,6 @@ export function KryptoLanding() {
   return (
     <div className={styles.container}>
       <Header />
-
       <section className={styles.heroSection}>
         <div className={styles.heroContent}>
           <div className={styles.column}>
