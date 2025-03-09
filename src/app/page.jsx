@@ -1,3 +1,5 @@
+"use client";
+import { useRouter } from "next/navigation";
 import React from "react";
 import { Header } from "./components/Header/Header";
 import { TestimonialCard } from "./components/TestimonialCard/TestimonialCard";
@@ -22,6 +24,7 @@ const testimonials = [
 ];
 export default KryptoLanding;
 export function KryptoLanding() {
+  const router = useRouter();
   return (
     <div className={styles.container}>
       <Header />
@@ -67,7 +70,7 @@ export function KryptoLanding() {
           <div className={styles.heroText}>
             <p className={styles.exploreSubtitle}>ARE YOU READY?</p>
             <h1 className={styles.exploreTitle}>To Dive Into A World Of Endless Tunes</h1>
-            <button className={styles.exploreButton}>GET STARTED</button>
+            <button className={styles.exploreButton} onClick={() => router.push("/home")}>GET STARTED</button>
           </div>
         </div>
       </section>
