@@ -16,12 +16,12 @@ const Sidebar = () => {
             <div className='bg-[#020e32] h-[85%] rounded'>
                 <div className='p-4 flex items-center justify-between'>
                     <div className='flex items-center gap-3'>
-                        <img className='w-8' src="https://i.ibb.co/LdFRq3BP/library-1.png" />
+                        <img className='w-8' src="https://i.ibb.co/Y7VZ2Zvt/library-1.png" />
                         <p className='font-bold'>Your Library</p>
                     </div>
                     <div className='flex items-center gap-3'>
-                        <img className='w-6' src="https://i.ibb.co/5gFWt0Z3/arrow.png" alt="arrow" />
-                        <img className='w-6' src="https://i.ibb.co/jkSHDdmg/plus.png" alt="plus" />
+                        <img className='w-6' src="https://i.ibb.co/BVybjN3t/arrow.png" alt="arrow" />
+                        <img className='w-6' src="https://i.ibb.co/ZzH43QQg/plus.png" alt="plus" />
                     </div>
                 </div>
                 <div className='p-4 bg-[#171d42] m-2 rounded font-semibold flex flex-col items-start justify-start gap-1 pl-4'>
